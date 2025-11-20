@@ -1,0 +1,32 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shardGradient" x1="4" y1="2" x2="28" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF" />
+      <stop offset="0.5" stop-color="#2E004B" />
+      <stop offset="1" stop-color="#FF4500" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M14.5 2.5L6.5 14.8L12.2 29.5L25.5 23.2L27.7 10.6L19.4 6.3L14.5 2.5Z"
+    fill="url(#shardGradient)"
+    stroke="#B0B3B8"
+    stroke-width="1"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M14.5 2.5L12.2 12.4L19.4 6.3M12.2 29.5L15.8 18.9L25.5 23.2"
+    stroke="#00E5FF"
+    stroke-width="1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.8"
+  />
+  <path
+    d="M6.5 14.8L15.8 18.9L27.7 10.6"
+    stroke="#FF4500"
+    stroke-width="1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.65"
+  />
+</svg>
