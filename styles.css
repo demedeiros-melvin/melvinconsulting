@@ -486,6 +486,138 @@ section {
   color: var(--sharp-silver);
 }
 
+.service-card h4 {
+  margin: 1rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.service-card ul {
+  margin: 0 0 1rem 1.2rem;
+  padding: 0;
+  color: var(--sharp-silver);
+}
+
+.service-card ul li {
+  margin-bottom: 0.4rem;
+}
+
+.service-card .pricing-box {
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  background: rgba(0, 229, 255, 0.06);
+}
+
+.service-card .pricing-box .note {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.service-card .pricing-box .btn {
+  margin-top: 0.4rem;
+}
+
+.service-card .btn {
+  margin-top: 0.75rem;
+}
+
+.pricing-section {
+  background: var(--surface);
+}
+
+.pricing-table {
+  margin-top: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.pricing-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.pricing-table th:last-child,
+.pricing-table td:last-child {
+  border-right: 0;
+}
+
+.pricing-table th {
+  background: rgba(0, 229, 255, 0.08);
+  color: #fff;
+  text-align: left;
+}
+
+.pricing-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.pricing-table td strong {
+  color: #fff;
+}
+
+.pricing-note {
+  margin-top: 1rem;
+  color: var(--muted);
+  max-width: 900px;
+}
+
+@media (max-width: 720px) {
+  .pricing-table table,
+  .pricing-table thead,
+  .pricing-table tbody,
+  .pricing-table th,
+  .pricing-table td,
+  .pricing-table tr {
+    display: block;
+  }
+
+  .pricing-table thead {
+    display: none;
+  }
+
+  .pricing-table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .pricing-table tr {
+    border: 1px solid var(--border);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .pricing-table td {
+    border: 0;
+    padding: 0.5rem 0;
+  }
+
+  .pricing-table td::before {
+    content: attr(data-label);
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    color: var(--iridescent-teal);
+    margin-bottom: 0.25rem;
+  }
+
+  .pricing-table tr:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .about {
   background: var(--surface);
 }
