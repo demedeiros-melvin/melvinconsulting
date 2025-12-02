@@ -301,15 +301,15 @@
           >
             <label>
               Name
-              <input type="text" required />
+              <input type="text" name="name" required />
             </label>
             <label>
               Email
-              <input type="email" required />
+              <input type="email" name="email" required />
             </label>
             <label>
               Business Name
-              <input type="text" />
+              <input type="text" name="businessName" required />
             </label>
             <label>
               Services Needed
@@ -325,7 +325,7 @@
             </label>
             <label>
               Notes
-              <textarea rows="4" name="message" placeholder="Share context or goals"></textarea>
+              <textarea rows="4" name="message" placeholder="Share context or goals" required></textarea>
             </label>
             <button type="submit" class="btn primary">Submit Inquiry</button>
           </form>
