@@ -21,11 +21,11 @@
       <div class="container header-content">
         <div class="logo">MAD Obsidian</div>
         <nav class="nav" id="nav-menu">
-          <a href="/#hero">Home</a>
-          <a href="/services.html">Services</a>
+          <a href="/index.html">Home</a>
+          <a href="/offers.html">Offers</a>
           <a href="/about.html">About</a>
           <a href="/blog/">Blog</a>
-          <a href="/#contact" class="cta-link">Book a Call</a>
+          <a href="#" class="cta-link" data-cta="book-call">Book a Call</a>
         </nav>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
           <span></span>
@@ -36,6 +36,11 @@
     </header>
 
     <main>
+      <section class="top-cta">
+        <div class="container">
+          <p>Want help implementing this? <a href="#" data-cta="book-call">Book a Strategy Call</a>.</p>
+        </div>
+      </section>
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-overlay">
@@ -139,7 +144,7 @@
         <div class="blog-cta">
           <h3>Need a done-with-you build?</h3>
           <p>
-            We design content systems that stay disciplined long after the project wraps. <a href="/#contact">Book a strategy call</a> to see what that looks like for your channels.
+            We design content systems that stay disciplined long after the project wraps. <a href="#" data-cta="book-call">Book a strategy call</a> to see what that looks like for your channels.
           </p>
         </div>
       </div>
@@ -152,7 +157,7 @@
               If you want a partner to map your creator marketing systems, we’ll audit
               your channels, simplify the workflow, and leave you with a documented plan.
             </p>
-            <a href="/#contact" class="btn btn-primary">Book a Strategy Call</a>
+            <a href="#" class="btn btn-primary" data-cta="book-call">Book a Strategy Call</a>
           </div>
         </div>
       </section>
@@ -168,11 +173,11 @@
         </div>
         <div>
           <h4>Quick Links</h4>
-          <a href="/#services">Services</a>
-          <a href="/services.html">Services Page</a>
-          <a href="/#about">About</a>
+          <a href="/index.html">Home</a>
+          <a href="/offers.html">Offers</a>
+          <a href="/about.html">About</a>
           <a href="/blog/">Blog</a>
-          <a href="/#contact">Book Call</a>
+          <a href="#" data-cta="book-call">Book a Call</a>
         </div>
         <div>
           <h4>Contact</h4>
@@ -185,6 +190,8 @@
       <p class="copyright">© <span id="year"></span> MAD Obsidian Consulting</p>
     </footer>
 
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/cta-links.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>

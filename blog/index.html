@@ -21,11 +21,11 @@
       <div class="container header-content">
         <div class="logo">MAD Obsidian</div>
         <nav class="nav" id="nav-menu">
-          <a href="/#hero">Home</a>
-          <a href="/services.html">Services</a>
+          <a href="/index.html">Home</a>
+          <a href="/offers.html">Offers</a>
           <a href="/about.html">About</a>
           <a href="/blog/">Blog</a>
-          <a href="/#contact" class="cta-link">Book a Call</a>
+          <a href="#" class="cta-link" data-cta="book-call">Book a Call</a>
         </nav>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
           <span></span>
@@ -36,6 +36,11 @@
     </header>
 
     <main>
+      <section class="top-cta">
+        <div class="container">
+          <p>Want help implementing this? <a href="#" data-cta="book-call">Book a Strategy Call</a>.</p>
+        </div>
+      </section>
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-overlay">
@@ -48,14 +53,14 @@
               Articles and playbooks from MAD Obsidian Consulting on creator marketing systems, content strategy, website optimization, and simple automation for small teams. Every post is written for creators, small business owners, and e-commerce entrepreneurs who want honest, testable guidance.
             </p>
             <div class="hero-ctas">
-              <a href="/services.html" class="btn secondary">Explore Services</a>
-              <a href="/#contact" class="btn btn-primary">Book a Strategy Call</a>
+              <a href="/offers.html" class="btn secondary">View Offers</a>
+              <a href="#" class="btn btn-primary" data-cta="book-call">Book a Strategy Call</a>
             </div>
           </div>
           <div class="blog-cta">
             <h3>Need marketing that works consistently?</h3>
             <p>
-              We build content systems, landing pages, and simple automation that work well for small teams. <a href="/#contact">Book a strategy call</a> to see what that looks like for your brand.
+              We build content systems, landing pages, and simple automation that work well for small teams. <a href="#" data-cta="book-call">Book a strategy call</a> to see what that looks like for your brand.
             </p>
           </div>
         </div>
@@ -112,11 +117,11 @@
         </div>
         <div>
           <h4>Quick Links</h4>
-          <a href="/#services">Services</a>
-          <a href="/services.html">Services Page</a>
-          <a href="/#about">About</a>
+          <a href="/index.html">Home</a>
+          <a href="/offers.html">Offers</a>
+          <a href="/about.html">About</a>
           <a href="/blog/">Blog</a>
-          <a href="/#contact">Book Call</a>
+          <a href="#" data-cta="book-call">Book a Call</a>
         </div>
         <div>
           <h4>Contact</h4>
@@ -129,6 +134,8 @@
       <p class="copyright">© <span id="year"></span> MAD Obsidian Consulting</p>
     </footer>
 
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/cta-links.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>
